@@ -1,4 +1,14 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #242424;
 }
+
+nav {
+  background-color: #312d2d;
+}
+
+nav a {
+  font-size: 6em;
+}
+/*# sourceMappingURL=styles.css.map */
