@@ -54,20 +54,29 @@ nav a:hover {
 h1 {
   color: white;
   font-weight: 700;
-  font-size: 4em;
+  font-size: 3rem;
   opacity: .9;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
 }
 
 .rectangles .rectangle-black {
   width: 40vw;
   height: 405px;
+  max-height: 110%;
   border: 1px solid black;
   z-index: -2;
 }
 
 .rectangles .rectangle-blue {
   width: 53.4vw;
-  height: 364px;
+  height: 58vh;
+  max-height: 92%;
+  max-width: 91.9%;
   border: 1px solid #009B9B;
   z-index: -1;
 }
