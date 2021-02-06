@@ -5,6 +5,7 @@ body {
   font-family: 'roboto';
 }
 
+/******  NAVBAR     *******/
 nav {
   background-color: #312d2d;
   -webkit-box-shadow: 0px 5px 10px -1px rgba(0, 0, 0, 0.4);
@@ -26,7 +27,7 @@ nav .__contact {
 
 @media (min-width: 576px) {
   nav .__contact {
-    margin-right: 20px !important;
+    margin-right: 34px !important;
   }
 }
 
@@ -47,5 +48,27 @@ nav a {
 nav a:hover {
   color: white;
   opacity: 0.7;
+}
+
+/******  HERO     *******/
+h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 4em;
+  opacity: .9;
+}
+
+.rectangles .rectangle-black {
+  width: 40vw;
+  height: 405px;
+  border: 1px solid black;
+  z-index: -2;
+}
+
+.rectangles .rectangle-blue {
+  width: 53.4vw;
+  height: 364px;
+  border: 1px solid #009B9B;
+  z-index: -1;
 }
 /*# sourceMappingURL=styles.css.map */
